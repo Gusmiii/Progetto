@@ -9,12 +9,62 @@ Problema
 Non avere abbatanza soldi per mangiare 
 
 target
-
 qualunque acquistatore di cibo online
 
 competitors
 Glovo Deliveoo uber eats just eat prestofood.it
+<img width="806" height="340" alt="image" src="https://github.com/user-attachments/assets/0d67cb63-ab16-4167-bb0e-4f55073cfdd5" />
 
 tagline
-Vuoi mangiare ovunque sempre avendo il prezzo migliore scegli CheapEat!
+Vuoi mangiare senza sentirti in colpa per il prezzo? scegli CheapEat!
 
+Requisiti 
+Analisi dei Requisiti – App di Food Delivery Intelligente
+🔹 Descrizione del Progetto
+
+App che confronta in tempo reale i prezzi dei ristoranti e permette di ordinare al miglior prezzo.
+Differenze rispetto ai competitor: accesso gratuito, trasparenza costi, supporto umano rapido, tracking preciso.
+
+⚙️ Requisiti Funzionali
+
+Ricerca di piatti/ristoranti nella zona.
+
+Confronto automatico dei prezzi.
+
+Ordine diretto tramite app.
+
+Tracking in tempo reale dell’ordine.
+
+Pagamento elettronico o alternativo.
+
+Chat di supporto 24/7.
+
+Recensioni e valutazioni.
+
+Offerte personalizzate.
+
+🔧 Requisiti Non Funzionali
+
+Prestazioni: risposta < 2s.
+
+Affidabilità: disponibilità ≥ 99,5%.
+
+Usabilità: interfaccia intuitiva e coerente.
+
+Compatibilità: iOS, Android, Web.
+
+Sicurezza: crittografia HTTPS e protezione dati.
+
+Trasparenza: costi sempre visibili.
+
+Supporto: risposta entro 2 min.
+
+🧩 Requisiti di Dominio
+
+Conformità a GDPR e norme sul consumatore.
+
+Dati e prezzi da fonti verificate.
+
+Standard igienico-sanitari per i corrieri.
+
+Integrazione con API e database partner.
