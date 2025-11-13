@@ -19,7 +19,9 @@ Grazie a un potente sistema di confronto prezzi in tempo reale, l’app trova au
 <p>Qualunque acquistatore di cibo online.</p>
 
 <h2>Competitors</h2>
-<p>Glovo, Deliveroo, Uber Eats, Just Eat, Prestofood.it, Image.</p>
+<p>Glovo, Deliveroo, Uber Eats, Just Eat, Prestofood.it, 
+<img width="801" height="348" alt="image" src="https://github.com/user-attachments/assets/06cf8c02-54bf-4968-afb6-a471802e8ccf" />
+
 
 <h2>Tagline</h2>
 <p><strong>Vuoi mangiare senza sentirti in colpa per il prezzo? Scegli CheapEat!</strong></p>
