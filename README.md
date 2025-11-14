@@ -65,3 +65,7 @@ Differenze rispetto ai competitor: accesso gratuito, trasparenza costi, supporto
   <li>Standard igienico-sanitari per i corrieri.</li>
   <li>Integrazione con API e database partner.</li>
 </ul>
+
+<h2>Use Case UML</h2>
+https://yuml.me/1a320501.svg
+
