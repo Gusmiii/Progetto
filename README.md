@@ -81,9 +81,9 @@ A differenza dei giganti del settore, noi non chiediamo abbonamenti per le funzi
 
 
 <h2>Wbs</h2>
+
 ```mermaid
  graph TD
- 
     A["FoodSaver App<br/>(€100k - 6 Mesi)"] --> B["Pianificazione & PM<br/>(€5k - 3 sett.)"]
     A --> C["Design UI/UX<br/>(€10k - 4 sett.)"]
     A --> D["Sviluppo Frontend<br/>(€25k - 8 sett.)"]
