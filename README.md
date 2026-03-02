@@ -129,3 +129,54 @@ Sono qui per chiedere 50.000€ per assumere personale per quanto riguarda l ass
     J --> J1["Aggiornamenti Scraper<br/>(€3k - 2 sett.)"]
     J --> J2["Monitoraggio API<br/>(€2k - 2 sett.)"]
 ```
+
+<h4>🧩Diagramma di Gantt</h4>
+
+gantt
+    title CheapEat – Piano di Sviluppo (6 mesi)
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d/%m
+
+    section Pianificazione
+    Pianificazione & PM           :a1, 2026-03-01, 3w
+    Requisiti API & Legali         :a2, after a1, 1w
+    Analisi Fee Competitor         :a3, after a1, 1w
+    Definizione MVP                :a4, after a1, 1w
+    Roadmap Sviluppo               :a5, after a1, 1w
+
+    section Design UI/UX
+    User Flow Comparazione         :b1, after a1, 1w
+    UI Schede Prezzo               :b2, after b1, 2w
+    User Testing                   :b3, after b2, 1w
+
+    section Backend & Dati
+    Scraping Engine & API          :c1, after a4, 3w
+    Database (Postgres + Redis)    :c2, after c1, 2w
+    Algoritmo Best Deal            :c3, after c2, 2w
+    Sicurezza & Autenticazione     :c4, after c3, 1w
+
+    Normalizzazione Menu           :d1, after c1, 3w
+    Mappatura Zone                 :d2, after d1, 2w
+    Standardizzazione Nomi         :d3, after d2, 1w
+
+    section Frontend
+    Web App (Next.js)              :e1, after b3, 4w
+    App Ibrida iOS/Android         :e2, after e1, 4w
+
+    section Funzioni Plus
+    Alert Prezzi                   :f1, after c3, 2w
+    Dashboard Risparmio            :f2, after f1, 1w
+
+    section Testing & QA
+    Stress Test                    :g1, after e2, 1w
+    Beta Testing Locale            :g2, after g1, 2w
+
+    section Marketing & Lancio
+    Landing Page                   :h1, after b3, 1w
+    Social “Trasparenza”           :h2, after h1, 2w
+    Partnership Locali             :h3, after h2, 1w
+
+    section Supporto & Post-Lancio
+    Supporto Clienti Attivo        :i1, after g2, 4w
+    Aggiornamenti Scraper          :i2, after g2, 2w
+    Monitoraggio API               :i3, after g2, 2w
