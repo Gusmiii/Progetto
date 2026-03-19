@@ -71,7 +71,7 @@ https://yuml.me/1a320501.svg
 
 
 <h2>Sito Web Lovable</h2>
-https://id-preview--2c9b7fbf-1f8f-48c8-8d4b-9bb69de8a672.lovable.app/?__lovable_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiWE8wWHVlTWZMcE1pQ21XUThmaFBsUkFMR2VxMSIsInByb2plY3RfaWQiOiIyYzliN2ZiZi0xZjhmLTQ4YzgtOGQ0Yi05YmI2OWRlOGE2NzIiLCJhY2Nlc3NfdHlwZSI6InByb2plY3QiLCJpc3MiOiJsb3ZhYmxlLWFwaSIsInN1YiI6IjJjOWI3ZmJmLTFmOGYtNDhjOC04ZDRiLTliYjY5ZGU4YTY3MiIsImF1ZCI6WyJsb3ZhYmxlLWFwcCJdLCJleHAiOjE3NzExODUyMDksIm5iZiI6MTc3MDU4MDQwOSwiaWF0IjoxNzcwNTgwNDA5fQ.Jr8TwfZC8VbwmgoZt-lu_9WXtXse-mWQNzjX_y5PLLyin5GdKucfwKyfMHPIhqNxiM3VExo34H3F00N1Iihj4fqo3gyvucFBiSnCTZPaR8aptinC6QuVUiGVUyH1BTzXoAkelc9GA4Sz2ogpVGHjwvqcWKNGPei93TMzI0pwCPQUDBLqALNDeu50-cSZxjLmrxh9M-rOBtWxLlMfzq-R8X639nrGS7UGPgXS6HaN-72qTqbxPihj54q-ryyYpQ8VQ89BlSwCEbABefafs8DsOmrhVT9GUvQcRRWJzAId3QGoLXHDhwYci6xY08pez3wQ3Tf83yfD-6qJLP6s8scMGOy3XNTr-j4M7qKcGiYte3xyLAiW9XnzqKo1VTWd7HRO6kz-yNlkgbLNLCSTU8CpZe_rj2l0W6cIjdOk2m1ckD1Y00reI0RClAxO6jNh4BhXlIS-MC2MHrPTscBCPjYXM6HDpVj0LwhDbYz13AB_mqV9ZpR3O2rwBjm7uIrQxydiP-Y_1Itzd9ucZdfw8qSTbQN8q3U7UUqPhlJCTyYoXDj-mmpibxew6cjMF-scdU813D6anCYavpu-97We8bYjl3gGIJh7hcmWtB4HX5PpkeuT1L7Laj8JNkYaysGKXKUAJgOxTRgzxPmF0NMCyTsQ35r8YGfbDjM6GJhdY6Zd8Fc
+[https://id-preview--2c9b7fbf-1f8f-48c8-8d4b-9bb69de8a672.lovable.app/?__lovable_token=](https://taste-track-deal.lovable.app)
 
 
 <h2>Elevator Pitch</h2>
@@ -79,7 +79,7 @@ https://id-preview--2c9b7fbf-1f8f-48c8-8d4b-9bb69de8a672.lovable.app/?__lovable_
 La nostra app è lo 'Skyscanner del Food Delivery'. Rivoluzioniamo il settore portando una trasparenza radicale: il nostro algoritmo confronta in tempo reale i prezzi di tutti i servizi di delivery nella tua zona per lo stesso piatto, trovando automaticamente l'offerta migliore per rapporto qualità/prezzo.
 A differenza dei giganti del settore, noi non chiediamo abbonamenti per le funzioni base. Offriamo un servizio gratuito che fa risparmiare l'utente immediatamente, con un modello 'Plus' opzionale per chi vuole vantaggi esclusivi. Stiamo restituendo il potere di scelta al consumatore, garantendo la pizza migliore al prezzo più basso, in un solo click.
 Sono qui per chiedere 50.000€ per assumere personale per quanto riguarda l assistenza clienti e sviluppare una web app competitiva"
-
+Sono disposto a cedere il 20 percento della mia azienda per questo investimento.
 
 <h2>Wbs</h2>
 
