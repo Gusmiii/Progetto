@@ -71,7 +71,7 @@ https://yuml.me/1a320501.svg
 
 
 <h2>Sito Web Lovable</h2>
-[https://id-preview--2c9b7fbf-1f8f-48c8-8d4b-9bb69de8a672.lovable.app/?__lovable_token=](https://taste-track-deal.lovable.app)
+(https://taste-track-deal.lovable.app)
 
 
 <h2>Elevator Pitch</h2>
