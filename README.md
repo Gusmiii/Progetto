@@ -144,6 +144,7 @@ flowchart LR
 Accesso diretto alla versione interattiva (Lovable) della piattaforma:
 👉 **[Guarda il prototipo su Lovable](https://taste-track-deal.lovable.app/)**
 <img width="1900" height="849" alt="image" src="https://github.com/user-attachments/assets/6c67fbe7-cae1-4dd4-a214-13e2fda2e107" />
+<img width="1916" height="825" alt="image" src="https://github.com/user-attachments/assets/80bcf99d-5dbb-4e4f-bc55-4e28fca02d39" />
 
 ---
 
