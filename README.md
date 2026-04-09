@@ -159,6 +159,12 @@ Accesso diretto alla versione interattiva (Lovable) della piattaforma:
 
 ### L'Elevator Pitch
 *"Ogni giorno, milioni di persone ordinano cibo a domicilio, ma perdono tempo saltando da un’app all’altra per capire chi ha la consegna gratuita o il prezzo più basso, finendo spesso per pagare di più senza accorgersene. La nostra app è lo **'Skyscanner del Food Delivery'**. Rivoluzioniamo il settore portando una trasparenza radicale: il nostro algoritmo confronta in tempo reale i prezzi di tutti i servizi di delivery nella tua zona per lo stesso piatto, trovando automaticamente l'offerta migliore per rapporto qualità/prezzo. A differenza dei giganti del settore, noi non chiediamo abbonamenti per le funzioni base. Offriamo un servizio gratuito che fa risparmiare l'utente immediatamente, con un modello 'Plus' opzionale per chi vuole vantaggi esclusivi. Stiamo restituendo il potere di scelta al consumatore, garantendo la pizza migliore al prezzo più basso, in un solo click. Sono qui per chiedere 50.000€ per assumere personale per quanto riguarda l'assistenza clienti e sviluppare una web app competitiva. Sono disposto a cedere il 20% della mia azienda per questo investimento."*
+<img width="1200" height="674" alt="image" src="https://github.com/user-attachments/assets/4c21138b-ef8a-49e5-8fc3-a976dbab9905" />
+<img width="1205" height="669" alt="image" src="https://github.com/user-attachments/assets/738762a8-a62b-4807-a16b-19fd8b2a8910" />
+<img width="1189" height="660" alt="image" src="https://github.com/user-attachments/assets/83051c60-80ed-4e0a-a0f7-7aa921498b08" />
+<img width="1191" height="663" alt="image" src="https://github.com/user-attachments/assets/5404cd05-b8dd-4783-b3f1-bcafb72ebd83" />
+<img width="1198" height="672" alt="image" src="https://github.com/user-attachments/assets/a944befb-bdf1-4ecd-9b85-69a6f7796390" />
+<img width="1199" height="669" alt="image" src="https://github.com/user-attachments/assets/51c6d3d9-0bfa-4644-b6a4-ba300e43d5e4" />
 
 ### WBS (Work Breakdown Structure)
 
