@@ -1,182 +1,225 @@
-<h1>La nostra app rivoluziona il mondo del food delivery</h1>
+# CheapEat - Lo "Skyscanner" del Food Delivery 🍔🍕
 
-<p>
-offrendo un’esperienza più trasparente, intelligente e conveniente rispetto ai principali competitor come Glovo o Deliveroo.
-</p>
+**Autore:** Gusmini Enrico
 
-<p>
-A differenza delle piattaforme tradizionali, non esiste alcun costo di abbonamento: ogni utente può accedere gratuitamente a tutte le funzionalità, con la possibilità di scegliere un piano Plus opzionale per vantaggi aggiuntivi.
-</p>
+## Legenda e Navigazione
 
-<p>
-Grazie a un potente sistema di confronto prezzi in tempo reale, l’app trova automaticamente le migliori offerte e il prezzo più conveniente per il piatto che desideri nella tua zona. Ad esempio, se cerchi una pizza margherita, la piattaforma confronterà i prezzi dei ristoranti vicini e selezionerà quello con il miglior rapporto qualità/prezzo, facendoti risparmiare tempo e denaro.
-</p>
+- [Descrizione e Visione](#descrizione-e-visione)
+- [Analisi di Mercato](#analisi-di-mercato) (Problema, Target, Competitors, Analisi Comparativa)
+- [Specifiche Tecniche](#specifiche-tecniche)
+- [Analisi dei Requisiti](#analisi-dei-requisiti) (Dettagli, Elenco e User Stories)
+- [Modellazione e Prototipazione](#modellazione-e-prototipazione) (UML e Prototipo)
+- [Business Strategy](#business-strategy) (Pitch, Slide Mentali, WBS e Gantt)
 
-<h2>Problema</h2>
-<p>Non avere abbastanza soldi per mangiare.</p>
+---
 
-<h2>Target</h2>
-<p>Qualunque acquistatore di cibo online.</p>
+## Descrizione e Visione
 
-<h2>Competitors</h2>
-<p>Glovo, Deliveroo, Uber Eats, Just Eat, Prestofood.it, 
-<img width="801" height="348" alt="image" src="https://github.com/user-attachments/assets/06cf8c02-54bf-4968-afb6-a471802e8ccf" />
+La nostra app rivoluziona il mondo del food delivery offrendo un’esperienza più **trasparente, intelligente e conveniente** rispetto ai principali competitor come Glovo o Deliveroo. 
 
+A differenza delle piattaforme tradizionali, **non esiste alcun costo di abbonamento obbligatorio**: ogni utente può accedere gratuitamente a tutte le funzionalità di base, con la possibilità di scegliere un piano Plus opzionale per vantaggi aggiuntivi. 
 
-<h2>Tagline</h2>
-<p><strong>Vuoi mangiare senza sentirti in colpa per il prezzo? Scegli CheapEat!</strong></p>
+Grazie a un potente sistema di **confronto prezzi in tempo reale**, l’app trova automaticamente le migliori offerte e il prezzo più conveniente per il piatto che desideri nella tua zona. Ad esempio, se cerchi una pizza margherita, la piattaforma confronterà i prezzi dei ristoranti vicini e delle diverse app di delivery, selezionando la combinazione con il miglior rapporto qualità/prezzo e azzerando i costi nascosti.
 
-<h2>Requisiti</h2>
-<h3>Analisi dei Requisiti – App di Food Delivery Intelligente</h3>
+✨ **Trasparenza radicale, zero abbonamenti per le funzioni base e il potere di scelta restituito al consumatore.**
 
-<h4>🔹 Descrizione del Progetto</h4>
-<p>
-App che confronta in tempo reale i prezzi dei ristoranti e permette di ordinare al miglior prezzo.
-Differenze rispetto ai competitor: accesso gratuito, trasparenza costi, supporto umano rapido, tracking preciso.
-</p>
+---
 
-<h4>⚙️ Requisiti Funzionali</h4>
-<ul>
-  <li>Ricerca di piatti/ristoranti nella zona.</li>
-  <li>Confronto automatico dei prezzi.</li>
-  <li>Ordine diretto tramite app.</li>
-  <li>Tracking in tempo reale dell’ordine.</li>
-  <li>Pagamento elettronico o alternativo.</li>
-  <li>Chat di supporto 24/7.</li>
-  <li>Recensioni e valutazioni.</li>
-  <li>Offerte personalizzate.</li>
-</ul>
+## Analisi di Mercato
 
-<h4>🔧 Requisiti Non Funzionali</h4>
-<ul>
-  <li>Prestazioni: risposta &lt; 2s.</li>
-  <li>Affidabilità: disponibilità ≥ 99,5%.</li>
-  <li>Usabilità: interfaccia intuitiva e coerente.</li>
-  <li>Compatibilità: iOS, Android, Web.</li>
-  <li>Sicurezza: crittografia HTTPS e protezione dati.</li>
-  <li>Trasparenza: costi sempre visibili.</li>
-  <li>Supporto: risposta entro 2 min.</li>
-</ul>
+### Problema
+L'ostacolo principale nel mercato attuale del food delivery è la **mancanza di trasparenza sui prezzi e le commissioni elevate**. Gli utenti perdono tempo passando da un'app all'altra (Glovo, Deliveroo, Just Eat) per capire chi offre la consegna gratuita o il prezzo più basso, finendo spesso per pagare ricarichi nascosti o spese di servizio gonfiate che rendono proibitivo ordinare regolarmente, specialmente per chi ha un budget limitato.
 
-<h4>🧩 Requisiti di Dominio</h4>
-<ul>
-  <li>Conformità a GDPR e norme sul consumatore.</li>
-  <li>Dati e prezzi da fonti verificate.</li>
-  <li>Standard igienico-sanitari per i corrieri.</li>
-  <li>Integrazione con API e database partner.</li>
-</ul>
+### Target
+Il servizio si rivolge specificamente a: **Studenti, giovani lavoratori e qualsiasi acquirente di cibo online** che desidera ottimizzare le proprie spese quotidiane senza rinunciare alla comodità del delivery.
 
-<h2>Use Case UML</h2>
-https://yuml.me/1a320501.svg
+### Competitors
+I principali player del mercato sono piattaforme consolidate ma chiuse nel proprio ecosistema:
+- Glovo
+- Deliveroo
+- Uber Eats
+- Just Eat
+- Prestofood.it
 
+### Analisi Comparativa
 
-<h2>Sito Web Lovable</h2>
-(https://taste-track-deal.lovable.app)
+| 🧩 Caratteristica | ⭐ Importanza | 🍔 CheapEat | 🟡 Glovo | 🟢 Deliveroo | 🟠 Just Eat |
+|:---|:---|:---|:---|:---|:---|
+| **Comparazione prezzi multi-app** | 🔥 High | 🟢 Automatica in tempo reale | 🔴 Assente | 🔴 Assente | 🔴 Assente |
+| **Trasparenza totale sui costi** | 🔥 High | 🟢 Costi di servizio e consegna espliciti | 🟠 Spesso nascosti fino al checkout | 🟠 Variabili | 🟠 Variabili |
+| **Piano gratuito completo** | 🔥 High | 🟢 Nessun abbonamento per confrontare | 🟠 Base gratuita, ma costi extra alti | 🟠 Base gratuita | 🟢 Base gratuita |
+| **Assistenza Clienti Rapida (< 2min)**| 🔥 High | 🟢 Supporto umano garantito | 🔴 Spesso tramite bot | 🟠 Lenta | 🔴 Spesso tramite bot |
+| **Piano "Plus" opzionale (Vantaggi)**| 🟡 Mod. | 🟢 Alert prezzi e dashboard risparmio | 🟢 Glovo Prime | 🟢 Deliveroo Plus | 🔴 Assente |
+| **Scelta basata sul risparmio** | 🔥 High | 🟢 Core dell'algoritmo | 🔴 Basato su prossimità/sponsor | 🔴 Basato su popolarità | 🔴 Basato su recensioni |
 
+### Tagline
+> *"Vuoi mangiare senza sentirti in colpa per il prezzo? Scegli CheapEat!"*
 
-<h2>Elevator Pitch</h2>
-"Ogni giorno, milioni di persone ordinano cibo a domicilio, ma perdono tempo saltando da un’app all’altra per capire chi ha la consegna gratuita o il prezzo più basso, finendo spesso per pagare di più senza accorgersene.
-La nostra app è lo 'Skyscanner del Food Delivery'. Rivoluzioniamo il settore portando una trasparenza radicale: il nostro algoritmo confronta in tempo reale i prezzi di tutti i servizi di delivery nella tua zona per lo stesso piatto, trovando automaticamente l'offerta migliore per rapporto qualità/prezzo.
-A differenza dei giganti del settore, noi non chiediamo abbonamenti per le funzioni base. Offriamo un servizio gratuito che fa risparmiare l'utente immediatamente, con un modello 'Plus' opzionale per chi vuole vantaggi esclusivi. Stiamo restituendo il potere di scelta al consumatore, garantendo la pizza migliore al prezzo più basso, in un solo click.
-Sono qui per chiedere 50.000€ per assumere personale per quanto riguarda l assistenza clienti e sviluppare una web app competitiva"
-Sono disposto a cedere il 20 percento della mia azienda per questo investimento.
+---
 
-<h2>Wbs</h2>
+## Specifiche Tecniche
+
+Per supportare un'architettura di scraping e comparazione dati in tempo reale, lo stack tecnologico scelto è orientato alle performance:
+- **Frontend Web:** Next.js (React) + Tailwind CSS → Interfaccia utente fluida, ottimizzata e reattiva.
+- **App Mobile:** React Native o Flutter (iOS/Android) per una codebase ibrida e sviluppo rapido.
+- **Backend & Motore di Scraping:** Node.js / Python (BeautifulSoup, Scrapy) → Per l'ingestione e la normalizzazione dei menu e dei prezzi.
+- **Database:** PostgreSQL (Dati relazionali, utenti, ordini) + Redis (Caching vitale per mantenere le risposte < 2s durante le ricerche dei prezzi).
+- **Autenticazione:** OAuth 2.0 / JWT.
+- **Infrastruttura e Cloud:** AWS o Vercel per scalabilità dinamica nei momenti di picco (es. orari dei pasti).
+- **Sicurezza:** Crittografia HTTPS, protezione dei dati personali GDPR compliant.
+
+---
+
+## Analisi dei Requisiti
+
+### Descrizione dei requisiti
+L'applicazione **CheapEat** permette agli utenti di registrarsi gratuitamente o accedere come ospiti per cercare ristoranti o piatti specifici nella propria area (funzionale). L'algoritmo interno elabora i dati, effettuando un **confronto automatico dei prezzi** tra le diverse piattaforme di delivery e mostrando le opzioni più convenienti (funzionale). 
+L'utente può poi completare l'ordine direttamente tramite l'app o essere reindirizzato all'offerta migliore, monitorando il **tracking in tempo reale** dell'ordine (funzionale).
+Gli utenti registrati possono accedere a un piano **Plus** opzionale che offre funzionalità avanzate come *Alert Prezzi* sui piatti preferiti e una *Dashboard del Risparmio* (funzionale).
+Il sistema garantisce **tempi di risposta inferiori a 2 secondi**, alta disponibilità (99,5%) e un'interfaccia coerente cross-platform (non funzionale). La piattaforma si affida a fonti di dati verificate, rispetta il GDPR e garantisce trasparenza assoluta dei costi in ogni fase (di dominio).
+
+### Elenco Riassuntivo Requisiti
+
+**Funzionali**
+1. Ricerca avanzata di piatti e ristoranti geolocalizzati.
+2. Comparazione automatica e in tempo reale dei prezzi tra i competitor.
+3. Ordine diretto tramite l'app o redirect ottimizzato.
+4. Tracking in tempo reale dello stato dell'ordine.
+5. Pagamento elettronico sicuro integrato.
+6. Chat di supporto clienti con risposta garantita entro 2 minuti.
+7. Gestione recensioni e valutazioni incrociate.
+8. Dashboard risparmio e notifiche (Alert prezzi) per utenti Plus.
+
+**Non Funzionali**
+1. Tempi di risposta del motore di ricerca inferiori a 2 secondi.
+2. Affidabilità e disponibilità del sistema ≥ 99,5%.
+3. Interfaccia intuitiva (UI/UX) compatibile con Web, iOS e Android.
+4. Crittografia HTTPS e sicurezza per i pagamenti.
+
+**Di Dominio**
+1. Conformità completa alle normative GDPR.
+2. Estrazione dati, prezzi e menu da fonti verificate e pubbliche.
+3. Integrazione stabile con API di partner e sistemi di pagamento.
+
+### User Stories
+
+| Attore (Come...) | Requisito / Azione (Voglio...) | Beneficio (In modo da...) |
+|:---|:---|:---|
+| Utente | cercare un piatto specifico (es. pizza margherita) | trovare tutti i ristoranti in zona che lo offrono. |
+| Utente | confrontare i prezzi totali (inclusa consegna) | scegliere l'opzione più economica senza fare calcoli manuali. |
+| Utente | creare un account gratuito | salvare i miei indirizzi e i metodi di pagamento. |
+| Utente | abbonarmi al piano Plus opzionale | attivare gli alert di prezzo per i miei piatti preferiti. |
+| Utente | visualizzare il tracking dell'ordine | sapere esattamente quando arriverà il mio cibo. |
+| Utente | contattare l'assistenza clienti via chat | risolvere rapidamente un problema con l'ordine o il pagamento. |
+| Utente | visualizzare la scomposizione esatta del prezzo | non avere brutte sorprese o commissioni nascoste al checkout. |
+| Amministratore | monitorare i log del motore di scraping | assicurarsi che i prezzi dei competitor siano sempre aggiornati. |
+
+---
+
+## Modellazione e Prototipazione
+
+### Use Case UML
+*Lo schema seguente illustra le interazioni primarie tra l'utente, il sistema di comparazione e i servizi esterni.*
 
 ```mermaid
- graph TD
-    A["FoodSaver App<br/>(€100k - 6 Mesi)"] --> B["Pianificazione & PM<br/>(€5k - 3 sett.)"]
-    A --> C["Design UI/UX<br/>(€10k - 4 sett.)"]
-    A --> D["Sviluppo Frontend<br/>(€25k - 8 sett.)"]
-    A --> E["Backend & Scraping<br/>(€25k - 8 sett.)"]
-    A --> F["Dati & Normalizzazione<br/>(€10k - 6 sett.)"]
-    A --> G["Funzioni Plus & AI<br/>(€5k - 3 sett.)"]
-    A --> H["Testing & QA<br/>(€5k - 3 sett.)"]
-    A --> I["Marketing & Lancio<br/>(€10k - 4 sett.)"]
-    A --> J["Supporto & Manutenzione<br/>(€5k - 4 sett.)"]
+flowchart LR
+    %% Attori
+    U((Utente))
+    S[[Sistema CheapEat]]
+    API[(API Competitors\nGlovo, Deliveroo)]
 
-    B --> B1["Requisiti API & Legali<br/>(€1k - 1 sett.)"]
-    B --> B2["Analisi Fee Competitor<br/>(€1k - 1 sett.)"]
-    B --> B3["Definizione MVP<br/>(€2k - 1 sett.)"]
-    B --> B4["Roadmap Sviluppo<br/>(€1k - 1 sett.)"]
+    %% Azioni Utente
+    U -->|1. Cerca Piatto/Ristorante| S
+    U -->|4. Seleziona l'offerta migliore| S
+    U -->|5. Effettua il pagamento| S
+    U -->|6. Monitora l'ordine| S
 
-    C --> C1["User Flow Comparazione<br/>(€3k - 1 sett.)"]
-    C --> C2["UI Schede Prezzo<br/>(€4k - 2 sett.)"]
-    C --> C3["User Testing<br/>(€3k - 1 sett.)"]
-
-    D --> D1["Web App Next.js<br/>(€10k - 4 sett.)"]
-    D --> D2["App Ibrida iOS/Android<br/>(€15k - 4 sett.)"]
-
-    E --> E1["Scraping Engine & API<br/>(€8k - 3 sett.)"]
-    E --> E2["DB PostgreSQL + Redis<br/>(€5k - 2 sett.)"]
-    E --> E3["Algoritmo 'Best Deal'<br/>(€7k - 2 sett.)"]
-    E --> E4["Sicurezza & Auth<br/>(€5k - 1 sett.)"]
-
-    F --> F1["Normalizzazione Menu<br/>(€5k - 3 sett.)"]
-    F --> F2["Mappatura Zone<br/>(€3k - 2 sett.)"]
-    F --> F3["Standardizzazione Nomi<br/>(€2k - 1 sett.)"]
-
-    G --> G1["Alert Prezzi<br/>(€3k - 2 sett.)"]
-    G --> G2["Dashboard Risparmio<br/>(€2k - 1 sett.)"]
-
-    H --> H1["Stress Test (Carico)<br/>(€2k - 1 sett.)"]
-    H --> H2["Beta Testing Locale<br/>(€3k - 2 sett.)"]
-
-    I --> I1["Social 'Trasparenza'<br/>(€5k - 2 sett.)"]
-    I --> I2["Partnership Locali<br/>(€3k - 1 sett.)"]
-    I --> I3["Landing Page<br/>(€2k - 1 sett.)"]
-
-    J --> J1["Aggiornamenti Scraper<br/>(€3k - 2 sett.)"]
-    J --> J2["Monitoraggio API<br/>(€2k - 2 sett.)"]
+    %% Azioni Sistema
+    S -->|2. Invia query di ricerca| API
+    API -->|3. Restituisce prezzi e menu| S
+    S -->|Elabora Algoritmo Risparmio| S
 ```
 
-<h4>🧩Diagramma di Gantt</h4>
+### Prototipo Basato Sui Requisiti
+Accesso diretto alla versione interattiva (Lovable) della piattaforma:
+👉 **[Guarda il prototipo su Lovable](https://taste-track-deal.lovable.app/)**
 
+---
+
+## Business Strategy
+
+### Slide Mentali (Pitch Deck)
+
+- **Slide 1: Intro:** Nome Compagnia (CheapEat), Slogan ("Lo Skyscanner del food delivery"), Contatti.
+- **Slide 2: Il Problema:** Troppe app, costi di consegna variabili, ricarichi sui prezzi nascosti. Mangiare a casa costa troppo e richiede troppo tempo per confrontare le offerte.
+- **Slide 3: La Soluzione:** Una singola app che centralizza, scansiona e confronta in tempo reale i prezzi di tutti i delivery nella zona dell'utente.
+- **Slide 4: Market Size:** Il mercato del food delivery vale miliardi. Milioni di utenti cercano quotidianamente di abbassare lo scontrino medio.
+- **Slide 5: Modello di Business:** Completamente gratuito per l'utente base. Monetizzazione tramite: 1) Affiliazione/Lead generation inviando ordini alle piattaforme partner; 2) Modello freemium con abbonamento "Plus" opzionale per alert prezzi avanzati.
+- **Slide 6: La Richiesta:** Ricerca di 50.000€ (per il 20% di equity) da destinare allo sviluppo della Web App, al backend di scraping e all'assunzione di personale per l'assistenza clienti rapida.
+
+### L'Elevator Pitch
+*"Ogni giorno, milioni di persone ordinano cibo a domicilio, ma perdono tempo saltando da un’app all’altra per capire chi ha la consegna gratuita o il prezzo più basso, finendo spesso per pagare di più senza accorgersene. La nostra app è lo **'Skyscanner del Food Delivery'**. Rivoluzioniamo il settore portando una trasparenza radicale: il nostro algoritmo confronta in tempo reale i prezzi di tutti i servizi di delivery nella tua zona per lo stesso piatto, trovando automaticamente l'offerta migliore per rapporto qualità/prezzo. A differenza dei giganti del settore, noi non chiediamo abbonamenti per le funzioni base. Offriamo un servizio gratuito che fa risparmiare l'utente immediatamente, con un modello 'Plus' opzionale per chi vuole vantaggi esclusivi. Stiamo restituendo il potere di scelta al consumatore, garantendo la pizza migliore al prezzo più basso, in un solo click. Sono qui per chiedere 50.000€ per assumere personale per quanto riguarda l'assistenza clienti e sviluppare una web app competitiva. Sono disposto a cedere il 20% della mia azienda per questo investimento."*
+
+### WBS (Work Breakdown Structure)
+
+1. **Gestione del Progetto:** Pianificazione, Roadmap, Analisi Competitor, Requisiti Legali.
+2. **Design UI/UX:** User Flow, Wireframe comparazione prezzi, User Testing.
+3. **Infrastruttura Dati (Backend):** Sviluppo Motore Scraping, Setup Database PostgreSQL/Redis, Algoritmo "Best Deal", Autenticazione.
+4. **Sviluppo Frontend:** Sviluppo Web App Next.js, Sviluppo App Ibrida Mobile.
+5. **Funzionalità Avanzate:** Implementazione "CheapEat Plus" (Dashboard, Alert).
+6. **Testing & QA:** Stress Test del server, Beta Testing Locale.
+7. **Marketing e Lancio:** Creazione Landing Page, Campagne Social, Partnership Locali.
+8. **Operations:** Setup Assistenza Clienti.
+
+### Diagramma di Gantt
+*Pianificazione temporale delle fasi di sviluppo previste per i primi 6 mesi.*
+
+```mermaid
 gantt
     title CheapEat – Piano di Sviluppo (6 mesi)
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
 
     section Pianificazione
-    Pianificazione & PM           :a1, 2026-03-01, 3w
-    Requisiti API & Legali         :a2, after a1, 1w
-    Analisi Fee Competitor         :a3, after a1, 1w
-    Definizione MVP                :a4, after a1, 1w
-    Roadmap Sviluppo               :a5, after a1, 1w
+    Pianificazione & PM           :a1, 2026-03-01, 21d
+    Requisiti API & Legali        :a2, after a1, 7d
+    Analisi Fee Competitor        :a3, after a1, 7d
+    Definizione MVP               :a4, after a1, 7d
+    Roadmap Sviluppo              :a5, after a1, 7d
 
     section Design UI/UX
-    User Flow Comparazione         :b1, after a1, 1w
-    UI Schede Prezzo               :b2, after b1, 2w
-    User Testing                   :b3, after b2, 1w
+    User Flow Comparazione        :b1, after a1, 7d
+    UI Schede Prezzo              :b2, after b1, 14d
+    User Testing                  :b3, after b2, 7d
 
     section Backend & Dati
-    Scraping Engine & API          :c1, after a4, 3w
-    Database (Postgres + Redis)    :c2, after c1, 2w
-    Algoritmo Best Deal            :c3, after c2, 2w
-    Sicurezza & Autenticazione     :c4, after c3, 1w
-
-    Normalizzazione Menu           :d1, after c1, 3w
-    Mappatura Zone                 :d2, after d1, 2w
-    Standardizzazione Nomi         :d3, after d2, 1w
+    Scraping Engine & API         :c1, after a4, 21d
+    Database (Postgres + Redis)   :c2, after c1, 14d
+    Algoritmo Best Deal           :c3, after c2, 14d
+    Sicurezza & Autenticazione    :c4, after c3, 7d
+    Normalizzazione Menu          :d1, after c1, 21d
+    Mappatura Zone                :d2, after d1, 14d
+    Standardizzazione Nomi        :d3, after d2, 7d
 
     section Frontend
-    Web App (Next.js)              :e1, after b3, 4w
-    App Ibrida iOS/Android         :e2, after e1, 4w
+    Web App (Next.js)             :e1, after b3, 28d
+    App Ibrida iOS/Android        :e2, after e1, 28d
 
     section Funzioni Plus
-    Alert Prezzi                   :f1, after c3, 2w
-    Dashboard Risparmio            :f2, after f1, 1w
+    Alert Prezzi                  :f1, after c3, 14d
+    Dashboard Risparmio           :f2, after f1, 7d
 
     section Testing & QA
-    Stress Test                    :g1, after e2, 1w
-    Beta Testing Locale            :g2, after g1, 2w
+    Stress Test                   :g1, after e2, 7d
+    Beta Testing Locale           :g2, after g1, 14d
 
     section Marketing & Lancio
-    Landing Page                   :h1, after b3, 1w
-    Social “Trasparenza”           :h2, after h1, 2w
-    Partnership Locali             :h3, after h2, 1w
+    Landing Page                  :h1, after b3, 7d
+    Social "Trasparenza"          :h2, after h1, 14d
+    Partnership Locali            :h3, after h2, 7d
 
-    section Supporto & Post-Lancio
-    Supporto Clienti Attivo        :i1, after g2, 4w
-    Aggiornamenti Scraper          :i2, after g2, 2w
-    Monitoraggio API               :i3, after g2, 2w
+    section Supporto post-lancio
+    Supporto Clienti Attivo       :i1, after g2, 28d
+    Aggiornamenti Scraper         :i2, after g2, 14d
+    Monitoraggio API              :i3, after g2, 14d
+```
