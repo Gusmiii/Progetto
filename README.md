@@ -162,14 +162,77 @@ Accesso diretto alla versione interattiva (Lovable) della piattaforma:
 
 ### WBS (Work Breakdown Structure)
 
-1. **Gestione del Progetto:** Pianificazione, Roadmap, Analisi Competitor, Requisiti Legali.
-2. **Design UI/UX:** User Flow, Wireframe comparazione prezzi, User Testing.
-3. **Infrastruttura Dati (Backend):** Sviluppo Motore Scraping, Setup Database PostgreSQL/Redis, Algoritmo "Best Deal", Autenticazione.
-4. **Sviluppo Frontend:** Sviluppo Web App Next.js, Sviluppo App Ibrida Mobile.
-5. **Funzionalità Avanzate:** Implementazione "CheapEat Plus" (Dashboard, Alert).
-6. **Testing & QA:** Stress Test del server, Beta Testing Locale.
-7. **Marketing e Lancio:** Creazione Landing Page, Campagne Social, Partnership Locali.
-8. **Operations:** Setup Assistenza Clienti.
+Pianificazione dettagliata delle fasi di sviluppo e relativi costi:
+
+```mermaid
+mindmap
+  root((CheapEat
+(6 mesi - €50.0k)))
+    1. Legale e Dati
+(€2.5k - 3 sett.)
+      1.1 Accordi Ristoranti
+(€1.5k - 2 sett.)
+        Contratti Partner
+        Commissioni
+      1.2 Compliance Legale
+(€1.0k - 1 sett.)
+        GDPR & Privacy
+        Termini di Servizio
+    2. Infrastruttura e Sicurezza
+(€6.0k - 4 sett.)
+      2.1 Cloud & Hosting
+(€2.5k - 1 sett.)
+        Setup AWS / Vercel
+        Storage e CDN
+      2.2 Sicurezza Dati
+(€2.0k - 2 sett.)
+        Crittografia HTTPS
+        Protezione Utenti
+      2.3 Autenticazione
+(€1.5k - 1 sett.)
+        Login Social
+        Ruoli e Permessi
+    3. Backend e Scraping
+(€16.5k - 8 sett.)
+      3.1 Database
+(€2.5k - 2 sett.)
+        PostgreSQL
+        Redis Cache
+      3.2 Core Business Logic
+(€12.0k - 5 sett.)
+        Motore Scraping
+        Algoritmo Comparazione
+        Gestione Ordini
+        Tracking Real-time
+      3.3 Pagamenti
+(€2.0k - 1 sett.)
+        Stripe Integrazione
+        Gestione Rimborsi
+    4. Frontend e UI/UX
+(€18.0k - 7 sett.)
+      4.1 UI/UX Design
+(€3.0k - 2 sett.)
+        Wireframes App
+        Design Responsive
+      4.2 Web App React
+(€7.5k - 3 sett.)
+        Dashboard Utente
+        Ricerca e Filtri
+      4.3 App Ibrida Mobile
+(€7.5k - 2 sett.)
+        React Native / Flutter
+        Notifiche Push
+    5. Testing, QA e Lancio
+(€7.0k - 4 sett.)
+      5.1 Testing & Bug Fix
+(€4.0k - 2 sett.)
+        Test Funzionali
+        Stress Test
+      5.2 Marketing & Analytics
+(€3.0k - 2 sett.)
+        Google Analytics
+        Lancio Beta Locale
+```
 
 ### Diagramma di Gantt
 *Pianificazione temporale delle fasi di sviluppo previste per i primi 6 mesi.*
