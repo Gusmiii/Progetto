@@ -166,74 +166,54 @@ Pianificazione dettagliata delle fasi di sviluppo e relativi costi:
 
 ```mermaid
 mindmap
-  root((CheapEat
-(6 mesi - €50.0k)))
-    1. Legale e Dati
-(€2.5k - 3 sett.)
-      1.1 Accordi Ristoranti
-(€1.5k - 2 sett.)
-        Contratti Partner
-        Commissioni
-      1.2 Compliance Legale
-(€1.0k - 1 sett.)
-        GDPR & Privacy
-        Termini di Servizio
-    2. Infrastruttura e Sicurezza
-(€6.0k - 4 sett.)
-      2.1 Cloud & Hosting
-(€2.5k - 1 sett.)
-        Setup AWS / Vercel
-        Storage e CDN
-      2.2 Sicurezza Dati
-(€2.0k - 2 sett.)
-        Crittografia HTTPS
-        Protezione Utenti
-      2.3 Autenticazione
-(€1.5k - 1 sett.)
-        Login Social
-        Ruoli e Permessi
-    3. Backend e Scraping
-(€16.5k - 8 sett.)
-      3.1 Database
-(€2.5k - 2 sett.)
-        PostgreSQL
-        Redis Cache
-      3.2 Core Business Logic
-(€12.0k - 5 sett.)
-        Motore Scraping
-        Algoritmo Comparazione
-        Gestione Ordini
-        Tracking Real-time
-      3.3 Pagamenti
-(€2.0k - 1 sett.)
-        Stripe Integrazione
-        Gestione Rimborsi
-    4. Frontend e UI/UX
-(€18.0k - 7 sett.)
-      4.1 UI/UX Design
-(€3.0k - 2 sett.)
-        Wireframes App
-        Design Responsive
-      4.2 Web App React
-(€7.5k - 3 sett.)
-        Dashboard Utente
-        Ricerca e Filtri
-      4.3 App Ibrida Mobile
-(€7.5k - 2 sett.)
-        React Native / Flutter
-        Notifiche Push
-    5. Testing, QA e Lancio
-(€7.0k - 4 sett.)
-      5.1 Testing & Bug Fix
-(€4.0k - 2 sett.)
-        Test Funzionali
-        Stress Test
-      5.2 Marketing & Analytics
-(€3.0k - 2 sett.)
-        Google Analytics
-        Lancio Beta Locale
+  root(("CheapEat<br/>(6 mesi - €50.0k)"))
+    1["1. Legale e Dati<br/>(€2.5k - 3 sett.)"]
+      1_1["1.1 Accordi Ristoranti<br/>(€1.5k - 2 sett.)"]
+        1_1_1(Contratti Partner)
+        1_1_2(Commissioni)
+      1_2["1.2 Compliance Legale<br/>(€1.0k - 1 sett.)"]
+        1_2_1(GDPR & Privacy)
+        1_2_2(Termini di Servizio)
+    2["2. Infrastruttura e Sicurezza<br/>(€6.0k - 4 sett.)"]
+      2_1["2.1 Cloud & Hosting<br/>(€2.5k - 1 sett.)"]
+        2_1_1(Setup AWS / Vercel)
+        2_1_2(Storage e CDN)
+      2_2["2.2 Sicurezza Dati<br/>(€2.0k - 2 sett.)"]
+        2_2_1(Crittografia HTTPS)
+        2_2_2(Protezione Utenti)
+      2_3["2.3 Autenticazione<br/>(€1.5k - 1 sett.)"]
+        2_3_1(Login Social)
+        2_3_2(Ruoli e Permessi)
+    3["3. Backend e Scraping<br/>(€16.5k - 8 sett.)"]
+      3_1["3.1 Database<br/>(€2.5k - 2 sett.)"]
+        3_1_1(PostgreSQL)
+        3_1_2(Redis Cache)
+      3_2["3.2 Core Business Logic<br/>(€12.0k - 5 sett.)"]
+        3_2_1(Motore Scraping)
+        3_2_2(Algoritmo Comparazione)
+        3_2_3(Gestione Ordini)
+        3_2_4(Tracking Real-time)
+      3_3["3.3 Pagamenti<br/>(€2.0k - 1 sett.)"]
+        3_3_1(Stripe Integrazione)
+        3_3_2(Gestione Rimborsi)
+    4["4. Frontend e UI/UX<br/>(€18.0k - 7 sett.)"]
+      4_1["4.1 UI/UX Design<br/>(€3.0k - 2 sett.)"]
+        4_1_1(Wireframes App)
+        4_1_2(Design Responsive)
+      4_2["4.2 Web App React<br/>(€7.5k - 3 sett.)"]
+        4_2_1(Dashboard Utente)
+        4_2_2(Ricerca e Filtri)
+      4_3["4.3 App Ibrida Mobile<br/>(€7.5k - 2 sett.)"]
+        4_3_1(React Native / Flutter)
+        4_3_2(Notifiche Push)
+    5["5. Testing, QA e Lancio<br/>(€7.0k - 4 sett.)"]
+      5_1["5.1 Testing & Bug Fix<br/>(€4.0k - 2 sett.)"]
+        5_1_1(Test Funzionali)
+        5_1_2(Stress Test)
+      5_2["5.2 Marketing & Analytics<br/>(€3.0k - 2 sett.)"]
+        5_2_1(Google Analytics)
+        5_2_2(Lancio Beta Locale)
 ```
-
 ### Diagramma di Gantt
 *Pianificazione temporale delle fasi di sviluppo previste per i primi 6 mesi.*
 
